@@ -1,0 +1,150 @@
+{
+  "seasons": {
+      "1996": [
+          {
+              "team": "crvena_zvezda",
+              "type": "away",
+              "images": [
+                  "images/crvena_zvezda/1996/crvena_zvezda_away1.jpg",
+                  "images/crvena_zvezda/1996/crvena_zvezda_away2.jpg"
+              ]
+          },
+          {
+              "team": "crvena_zvezda",
+              "type": "home",
+              "images": [
+                  "images/crvena_zvezda/1996/crvena_zvezda_home1.jpg",
+                  "images/crvena_zvezda/1996/crvena_zvezda_home2.jpg"
+              ]
+          }
+      ],
+      "1997": [
+          {
+              "team": "crvena_zvezda",
+              "type": "home",
+              "images": [
+                  "images/crvena_zvezda/1997/crvena_zvezda_home1.jpg",
+                  "images/crvena_zvezda/1997/crvena_zvezda_home2.jpg",
+                  "images/crvena_zvezda/1997/crvena_zvezda_home3.jpg",
+                  "images/crvena_zvezda/1997/crvena_zvezda_home4.jpg"
+              ]
+          }
+      ],
+      "2021": [
+          {   
+              "team": "crvena_zvezda",
+              "type": "away",
+              "images": [
+                  "images/crvena_zvezda/2021/crvena_zvezda_away1.jpg",
+                  "images/crvena_zvezda/2021/crvena_zvezda_away2.jpg",
+                  "images/crvena_zvezda/2021/crvena_zvezda_away3.jpg"
+              ]
+          },
+          {
+              "team": "crvena_zvezda",
+              "type": "home",
+              "images": [
+                  "images/crvena_zvezda/2021/crvena_zvezda_home1.jpg",
+                  "images/crvena_zvezda/2021/crvena_zvezda_home2.jpg",
+                  "images/crvena_zvezda/2021/crvena_zvezda_home3.jpg"
+              ]
+          },
+          {
+              "team": "crvena_zvezda",
+              "type": "third",
+              "images": [
+                  "images/crvena_zvezda/2021/crvena_zvezda_third1.jpg",
+                  "images/crvena_zvezda/2021/crvena_zvezda_third2.jpg",
+                  "images/crvena_zvezda/2021/crvena_zvezda_third3.jpg"
+              ]
+          }
+      ],
+      "2022": [
+          {
+              "team": "crvena_zvezda",
+              "type": "away",
+              "images": [
+                  "images/crvena_zvezda/2022/crvena_zvezda_away1.webp",
+                  "images/crvena_zvezda/2022/crvena_zvezda_away2.webp",
+                  "images/crvena_zvezda/2022/crvena_zvezda_away3.webp"
+              ]
+          },
+          {
+              "team": "crvena_zvezda",
+              "type": "home",
+              "images": [
+                  "images/crvena_zvezda/2022/crvena_zvezda_home1.jpg",
+                  "images/crvena_zvezda/2022/crvena_zvezda_home2.jpg",
+                  "images/crvena_zvezda/2022/crvena_zvezda_home3.jpg"
+              ]
+          },
+          {
+              "team": "crvena_zvezda",  
+              "type": "third",
+              "images": [
+                  "images/crvena_zvezda/2022/crvena_zvezda_third1.jpg",
+                  "images/crvena_zvezda/2022/crvena_zvezda_third2.jpg",
+                  "images/crvena_zvezda/2022/crvena_zvezda_third3.jpg"
+              ]
+          }
+      ],
+      "2023": [
+          {
+              "team": "crvena_zvezda",
+              "type": "away",
+              "images": [
+                  "images/crvena_zvezda/2023/crvena_zvezda_away1.jpg",
+                  "images/crvena_zvezda/2023/crvena_zvezda_away2.jpg",
+                  "images/crvena_zvezda/2023/crvena_zvezda_away3.jpg"
+              ]
+          },
+          {
+              "team": "crvena_zvezda",
+              "type": "home",
+              "images": [
+                  "images/crvena_zvezda/2023/crvena_zvezda_home1.jpg",
+                  "images/crvena_zvezda/2023/crvena_zvezda_home2.jpg",
+                  "images/crvena_zvezda/2023/crvena_zvezda_home3.jpg"
+              ]
+          },
+          {
+              "team": "crvena_zvezda",
+              "type": "third",
+              "images": [
+                  "images/crvena_zvezda/2023/crvena_zvezda_third1.jpg",
+                  "images/crvena_zvezda/2023/crvena_zvezda_third2.jpg",
+                  "images/crvena_zvezda/2023/crvena_zvezda_third3.jpg"
+              ]
+          }
+      ],
+      "2024": [
+          {
+              "team": "crvena_zvezda",
+              "type": "away",
+              "images": [
+                  "images/crvena_zvezda/2024/crvena_zvezda_away1.png",
+                  "images/crvena_zvezda/2024/crvena_zvezda_away2.png",
+                  "images/crvena_zvezda/2024/crvena_zvezda_away3.jpg"
+              ]
+          },
+          {
+              "team": "crvena_zvezda",
+              "type": "home",
+              "images": [
+                  "images/crvena_zvezda/2024/crvena_zvezda_home1.png",
+                  "images/crvena_zvezda/2024/crvena_zvezda_home2.png",
+                  "images/crvena_zvezda/2024/crvena_zvezda_home3.jpg"
+              ]
+          },
+          {
+              "team": "crvena_zvezda",
+              "type": "third",
+              "images": [
+                  "images/crvena_zvezda/2024/crvena_zvezda_third1.jpg",
+                  "images/crvena_zvezda/2024/crvena_zvezda_third2.jpg",
+                  "images/crvena_zvezda/2024/crvena_zvezda_third3.jpg"
+              ]
+          }
+      ]
+  }
+}

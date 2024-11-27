@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продавница дресова - dres.rs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/osnovne/logo.png" type="image/png">
+    <meta name="description" content="Продавница дресова највећих клубова, са посебним избором ретро модела.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="preload" href="images/osnovne/dresovi.webp" as="image">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/osnovne/logo.png" alt="Лого" style="height: 40px; margin-right: 10px;">
+                <span>dres.rs</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Почетна</a></li>
+                    <li class="nav-item"><a class="nav-link" href="klubovi.html">Клубови</a></li>
+                    <li class="nav-item"><a class="nav-link" href="crvena-zvezda.html">Црвена Звезда</a></li>
+                    <li class="nav-item"><a class="nav-link" href="retro-dresovi.html">Ретро дресови</a></li>
+                    <li class="nav-item"><a class="nav-link" href="o-nama.html">О нама</a></li>
+                    <li class="nav-item"><a class="nav-link" href="korpa.html">Корпа <span id="cart-count">(0)</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="welcome-section d-flex align-items-center justify-content-center" style="background: url('images/osnovne/dresovi.webp') no-repeat center center/cover;">
+        <div class="welcome-overlay">
+            <div class="container text-center text-white">
+                <h1 class="display-4">Откријте свет фудбалских дресова</h1>
+                <p class="lead">Добро дошли на dres.rs - место где страст према фудбалу оживљава! Истражите најновије моделе дресова ваших омиљених клубова, као и ретро колекције за праве ентузијасте.</p>
+                <a href="#categories" class="btn btn-danger btn-lg mt-3">Погледајте понуду</a>
+            </div>
+        </div>
+    </section>
+    <section id="categories" class="container mt-5">
+        <h2 class="text-center mb-4">Категорије</h2>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="klubovi.html">
+                    <div class="card">
+                        <img src="images/klubovi/default.png" class="card-img-top" alt="Клубови">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Клубови</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="crvena-zvezda.html">
+                    <div class="card">
+                        <img src="images/crvena_zvezda/default.png" class="card-img-top" alt="Црвена Звезда">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Црвена Звезда</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="retro-dresovi.html">
+                    <div class="card">
+                        <img src="images/retro/default.png" class="card-img-top" alt="Ретро дресови">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ретро дресови</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="benefits-section container my-5">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="benefit-item">
+                    <img src="images/benefiti/dostava.png" alt="Брза достава" class="benefit-icon">
+                    <h5>Брза достава</h5>
+                    <p>Производе шаљемо на вашу адресу, реномираним курирским службама.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="benefit-item">
+                    <img src="images/benefiti/popust.png" alt="Онлајн попуст" class="benefit-icon">
+                    <h5>Онлајн попуст</h5>
+                    <p>Пратите нас и остварите попусте кроз промоције у нашој веб продавници.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="benefit-item">
+                    <img src="images/benefiti/kupovina.png" alt="Сигурна куповина" class="benefit-icon">
+                    <h5>Сигурна куповина</h5>
+                    <p>За плаћање у веб продавници користимо сигурносно плаћање НЛБ Комерцијалне банке.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="benefit-item">
+                    <img src="images/benefiti/podrska.png" alt="Онлајн подршка" class="benefit-icon">
+                    <h5>Онлајн подршка</h5>
+                    <p>За сва питања, проблеме и подршку, увек смо ту за вас.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        © 2024 Владимир Стијовић - Продавница дресова - Сва права задржана.
+        <div class="mt-2">
+            <a href="https://www.facebook.com" target="_blank" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.tiktok.com" target="_blank" class="text-white"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #c9302c;
+}
+
+.welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    height: 100vh;
+    background: url('../images/osnovne/dresovi.png') no-repeat center center/cover;
+}
+
+.welcome-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.welcome-section .container {
+    position: relative;
+    z-index: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.card {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    transition: transform 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    object-fit: contain;
+    height: 330px;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.card-body {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #d9534f;
+    transition: color 0.3s ease;
+}
+
+.card-title:hover {
+    color: #c9302c;
+    text-decoration: underline;
+}
+
+.benefits-section .benefit-item {
+    padding: 15px;
+}
+
+.benefits-section .benefit-icon {
+    max-width: 60px;
+    margin-bottom: 10px;
+}
+
+.product_page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+    align-items: center;
+}
+
+.swiper-container {
+    width: 100%;
+    max-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    max-height: 90vh; 
+    object-fit: contain;
+}
+
+.main_image_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_details {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.size-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.size-button {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.size-button:hover {
+    background-color: #e2e6ea;
+}
+
+.size-button.selected {
+    background-color: #c40000;
+    color: white;
+}
+
+.warning-text {
+    color: red;
+    font-size: 14px;
+}
+
+#addToCartButton {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.notification {
+    background-color: green;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    z-index: 9999;
+    display: none; 
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.notification.show {
+    opacity: 1;
+    pointer-events: auto; 
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    border-top: solid #e10d14;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #c9302c;
+}
+
+@media (min-width: 768px) {
+    .product_page {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+
+    .main_image_container {
+        width: 40%;
+    }
+
+    .product_details {
+        width: 40%;
+        text-align: left;
+    }
+}

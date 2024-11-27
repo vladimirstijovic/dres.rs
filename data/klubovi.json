@@ -1,0 +1,235 @@
+{  
+  "seasons": {
+    "2020": [
+      {
+        "team": "real_madrid",
+        "type": "third",
+        "images": [
+          "images/klubovi/2020/real_madrid/real_madrid_third1.jpg",
+          "images/klubovi/2020/real_madrid/real_madrid_third2.jpg",
+          "images/klubovi/2020/real_madrid/real_madrid_third3.jpg"
+        ]
+      }
+    ],
+    "2021": [
+      {
+        "team": "inter_milan",
+        "type": "away",
+        "images": [
+          "images/klubovi/2021/inter_milan/inter_milan_away1.jpg",
+          "images/klubovi/2021/inter_milan/inter_milan_away2.jpg",
+          "images/klubovi/2021/inter_milan/inter_milan_away3.jpg"
+        ]
+      },
+      {
+        "team": "inter_milan",
+        "type": "home",
+        "images": [
+          "images/klubovi/2021/inter_milan/inter_milan_home1.jpg",
+          "images/klubovi/2021/inter_milan/inter_milan_home2.jpg",
+          "images/klubovi/2021/inter_milan/inter_milan_home3.jpg"
+        ]
+      },
+      {
+        "team": "napoli",
+        "type": "third",
+        "images": [
+          "images/klubovi/2021/napoli/napoli_third1.jpg",
+          "images/klubovi/2021/napoli/napoli_third2.jpg"
+        ]
+      },
+      {
+        "team": "porto",
+        "type": "away",
+        "images": [
+          "images/klubovi/2021/porto/porto_away1.jpg",
+          "images/klubovi/2021/porto/porto_away2.jpg",
+          "images/klubovi/2021/porto/porto_away3.jpg"
+        ]
+      },
+      {
+        "team": "river_plate",
+        "type": "away",
+        "images": [
+          "images/klubovi/2021/river_plate/river_plate_away1.jpg",
+          "images/klubovi/2021/river_plate/river_plate_away2.jpg",
+          "images/klubovi/2021/river_plate/river_plate_away3.jpg"
+        ]
+      },
+      {
+        "team": "river_plate",
+        "type": "third",
+        "images": [
+          "images/klubovi/2021/river_plate/river_plate_third1.jpg",
+          "images/klubovi/2021/river_plate/river_plate_third2.jpg",
+          "images/klubovi/2021/river_plate/river_plate_third3.jpg"
+        ]
+      }
+    ],
+    "2022": [
+      {
+        "team": "manchester_united",
+        "type": "away",
+        "images": [
+          "images/klubovi/2022/manchester_united/manchester_united_away1.jpg",
+          "images/klubovi/2022/manchester_united/manchester_united_away2.jpg",
+          "images/klubovi/2022/manchester_united/manchester_united_away3.jpg"
+        ]
+      },
+      {
+        "team": "manchester_united",
+        "type": "home",
+        "images": [
+          "images/klubovi/2022/manchester_united/manchester_united_home1.jpg",
+          "images/klubovi/2022/manchester_united/manchester_united_home2.jpg"
+        ]
+      },
+      {
+        "team": "river_plate",
+        "type": "home",
+        "images": [
+          "images/klubovi/2022/river_plate/river_plate_home1.jpg",
+          "images/klubovi/2022/river_plate/river_plate_home2.jpg"
+        ]
+      },
+      {
+        "team": "river_plate",
+        "type": "third",
+        "images": [
+          "images/klubovi/2022/river_plate/river_plate_third1.jpg",
+          "images/klubovi/2022/river_plate/river_plate_third2.jpg"
+        ]
+      }
+    ],
+    "2023": [
+      {
+        "team": "olympiacos",
+        "type": "away",
+        "images": [
+          "images/klubovi/2023/olympiacos/olympiacos_away1.jpg",
+          "images/klubovi/2023/olympiacos/olympiacos_away2.jpg",
+          "images/klubovi/2023/olympiacos/olympiacos_away3.jpg"
+        ]
+      },
+      {
+        "team": "olympiacos",
+        "type": "home",
+        "images": [
+          "images/klubovi/2023/olympiacos/olympiacos_home1.jpg",
+          "images/klubovi/2023/olympiacos/olympiacos_home2.jpg",
+          "images/klubovi/2023/olympiacos/olympiacos_home3.jpg"
+        ]
+      }
+    ],
+    "2024": [
+      {
+        "team": "boca_juniors",
+        "type": "third",
+        "images": [
+          "images/klubovi/2024/boca_juniors/boca_juniors_third1.jpg",
+          "images/klubovi/2024/boca_juniors/boca_juniors_third2.jpg"
+        ]
+      },
+      {
+        "team": "inter_milan",
+        "type": "away",
+        "images": [
+          "images/klubovi/2024/inter_milan/inter_milan_away1.jpg",
+          "images/klubovi/2024/inter_milan/inter_milan_away2.jpg",
+          "images/klubovi/2024/inter_milan/inter_milan_away3.jpg",
+          "images/klubovi/2024/inter_milan/inter_milan_away4.jpg"
+        ]
+      },
+      {
+        "team": "inter_milan",
+        "type": "home",
+        "images": [
+          "images/klubovi/2024/inter_milan/inter_milan_home1.jpg",
+          "images/klubovi/2024/inter_milan/inter_milan_home2.jpg",
+          "images/klubovi/2024/inter_milan/inter_milan_home3.jpg"
+        ]
+      },
+      {
+        "team": "juventus",
+        "type": "away",
+        "images": [
+          "images/klubovi/2024/juventus/juventus_away1.png",
+          "images/klubovi/2024/juventus/juventus_away2.png"
+        ]
+      },
+      {
+        "team": "juventus",
+        "type": "third",
+        "images": [
+          "images/klubovi/2024/juventus/juventus_third1.jpg",
+          "images/klubovi/2024/juventus/juventus_third2.jpg"
+        ]
+      },
+      {
+        "team": "lazio",
+        "type": "third",
+        "images": [
+          "images/klubovi/2024/lazio/lazio_third1.jpg",
+          "images/klubovi/2024/lazio/lazio_third2.jpg"
+        ]
+      },
+      {
+        "team": "manchester_united",
+        "type": "third",
+        "images": [
+          "images/klubovi/2024/manchester_united/manchester_united_third1.jpg",
+          "images/klubovi/2024/manchester_united/manchester_united_third2.jpg",
+          "images/klubovi/2024/manchester_united/manchester_united_third3.jpg"
+        ]
+      },
+      {
+        "team": "napoli",
+        "type": "home",
+        "images": [
+          "images/klubovi/2024/napoli/napoli_home1.jpg",
+          "images/klubovi/2024/napoli/napoli_home2.jpg"
+        ]
+      },
+      {
+        "team": "olympiacos",
+        "type": "away",
+        "images": [
+          "images/klubovi/2024/olympiacos/olympiacos_away1.jpg",
+          "images/klubovi/2024/olympiacos/olympiacos_away2.jpg"
+        ]
+      },
+      {
+        "team": "olympiacos",
+        "type": "home",
+        "images": [
+          "images/klubovi/2024/olympiacos/olympiacos_home1.jpg",
+          "images/klubovi/2024/olympiacos/olympiacos_home2.jpg"
+        ]
+      },
+      {
+        "team": "porto",
+        "type": "home",
+        "images": [
+          "images/klubovi/2024/porto/porto_home1.jpg",
+          "images/klubovi/2024/porto/porto_home2.jpg"
+        ]
+      },
+      {
+        "team": "real_madrid",
+        "type": "away",
+        "images": [
+          "images/klubovi/2024/real_madrid/real_madrid_away1.jpg",
+          "images/klubovi/2024/real_madrid/real_madrid_away2.jpg"
+        ]
+      },
+      {
+        "team": "real_madrid",
+        "type": "home",
+        "images": [
+          "images/klubovi/2024/real_madrid/real_madrid_home1.jpg",
+          "images/klubovi/2024/real_madrid/real_madrid_home2.jpg"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продавница дресова - dres.rs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/osnovne/logo.png" type="image/png">
+    <meta name="description" content="Продавница дресова највећих клубова, са посебним избором ретро модела.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="images/osnovne/logo.png" alt="Лого" style="height: 40px; margin-right: 10px;">
+                    <span>dres.rs</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Почетна</a></li>
+                        <li class="nav-item"><a class="nav-link" href="klubovi.html">Клубови</a></li>
+                        <li class="nav-item"><a class="nav-link" href="crvena-zvezda.html">Црвена Звезда</a></li>
+                        <li class="nav-item"><a class="nav-link" href="retro-dresovi.html">Ретро дресови</a></li>
+                        <li class="nav-item"><a class="nav-link" href="o-nama.html">О нама</a></li>
+                        <li class="nav-item"><a class="nav-link" href="korpa.html">Корпа <span id="cart-count">(0)</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="product_page">
+        <div class="main_image_container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper" id="swiper-wrapper">
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="product_details">
+            <h2 id="productTitle">Дрес за сезону 2024/25</h2>
+            <p><strong>Састав:</strong> 100% полиестер.</p>
+            <p id="productPrice" class="font-weight-bold">Цена: од 9.990,00 РСД</p>
+            <div id="sizeButtons" class="size-options"></div>
+            <p id="sizeWarning" class="warning-text" style="display: none;">Молимо изаберите величину дреса.</p>
+            <label for="pa_odabir-stampe" class="mt-3">Одaбрана штампа:</label>
+            <select id="pa_odabir-stampe" class="form-control mb-3" name="attribute_pa_odabir-stampe"></select>
+            <p id="printWarning" class="warning-text" style="display: none;">Молимо изаберите врсту штампе.</p>
+            <div id="personalizationFields" style="display: none;">
+                <label for="playerName" class="mt-3">Име/Презиме:</label>
+                <input type="text" id="playerName" class="form-control mb-2" placeholder="Унесите име или презиме" pattern="[A-Za-zА-Яа-я\s]{2,}" required>
+                <p id="nameWarning" class="warning-text" style="display: none;">Молимо унесите име или презиме (минимум 2 слова).</p>
+                <label for="playerNumber" class="mt-3">Број:</label>
+                <input type="number" id="playerNumber" class="form-control mb-2" placeholder="Унесите број (1-99)" min="1" max="99" required>
+                <p id="numberWarning" class="warning-text" style="display: none;">Молимо унесите исправан број (1-99).</p>
+            </div>
+            <button id="addToCartButton" class="btn btn-dark mt-3">Додај у корпу</button>
+            <div id="notification" class="notification" style="display: none;">Производ је успешно додат у корпу!</div>
+        </div>
+    </section>
+    <section class="benefits-section container my-5">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="benefit-item">
+                    <img src="images/benefiti/dostava.png" alt="Брза достава" class="benefit-icon">
+                    <h5>Брза достава</h5>
+                    <p>Производе шаљемо на вашу адресу, реномираним курирским службама.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="benefit-item">
+                    <img src="images/benefiti/popust.png" alt="Онлајн попуст" class="benefit-icon">
+                    <h5>Онлајн попуст</h5>
+                    <p>Пратите нас и остварите попусте кроз промоције у нашој веб продавници.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="benefit-item">
+                    <img src="images/benefiti/kupovina.png" alt="Сигурна куповина" class="benefit-icon">
+                    <h5>Сигурна куповина</h5>
+                    <p>За плаћање у веб продавници користимо сигурносно плаћање НЛБ Комерцијалне банке.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="benefit-item">
+                    <img src="images/benefiti/podrska.png" alt="Онлајн подршка" class="benefit-icon">
+                    <h5>Онлајн подршка</h5>
+                    <p>За сва питања, проблеме и подршку, увек смо ту за вас.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        © 2024 Владимир Стијовић - Продавница дресова - Сва права задржана.
+        <div class="mt-2">
+            <a href="https://www.facebook.com" target="_blank" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.tiktok.com" target="_blank" class="text-white"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
