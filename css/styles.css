@@ -38,6 +38,16 @@ a {
     background: url('../images/osnovne/dresovi.png') no-repeat center center/cover;
 }
 
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
 .welcome-overlay {
     position: absolute;
     top: 0;
@@ -207,7 +217,6 @@ a {
     transition: opacity 0.5s ease-in-out;
 }
 
-
 .notification.show {
     opacity: 1;
     pointer-events: auto; 
@@ -237,7 +246,6 @@ footer a:hover {
         align-items: flex-start;
         gap: 20px;
     }
-
 
     .main_image_container {
         width: 40%;
