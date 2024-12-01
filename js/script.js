@@ -310,13 +310,12 @@ function handleAddToCart() {
             return;
         }
     }
-
-    const productName = document.getElementById("productTitle").textContent;
-    let price = parsePrice(document.getElementById("productPrice").textContent);
-    if (isNaN(price) || price <= 0) {
-        price = BASE_PRICE;
+    // Pronađi cenu u zavisnosti od opcije štampe
+    let price = BASE_PRICE;
+    if (selectedPrint === "usluzna-stampa") {
+        price = USLUZNA_STAMPA_PRICE;
     }
-
+    const productName = document.getElementById("productTitle").textContent;
     cart.push({ 
         name: productName, 
         size, 
@@ -326,6 +325,7 @@ function handleAddToCart() {
         playerNumber: selectedPrint === "usluzna-stampa" ? playerNumber : null,
         image: mainImageSrc
     });
+
     saveCart();
     displayNotification("Производ је успешно додат у корпу!");
     updateCartCount();
