@@ -11,7 +11,6 @@ const PRINT_OPTIONS = [
     { value: "usluzna-stampa", text: "Услужна штампа" },
 ];
 
-let firstImageSrc = ""; 
 
 document.addEventListener("DOMContentLoaded", function () {
     loadCart();
@@ -163,9 +162,8 @@ function initializeDresPage() {
                 if (images.length > 0) {
                     const swiperWrapper = document.getElementById("swiper-wrapper");
 
-                    // Očisti prethodni sadržaj Swiper wrappera i dodeli prvu sliku globalnoj promenljivoj
+                    // Očisti prethodni sadržaj Swiper wrappera
                     swiperWrapper.innerHTML = "";
-                    firstImageSrc = images[0];
 
                     // Dinamičko dodavanje slika u Swiper
                     images.forEach(image => {
@@ -175,7 +173,7 @@ function initializeDresPage() {
                         swiperWrapper.appendChild(slideDiv);
                     });
 
-                    // Inicijalizuj ili ponovo inicijalizuj Swiper nakon dodavanja slika
+                    // Inicijalizujte ili ponovo inicijalizujte Swiper nakon dodavanja slika
                     initializeSwiper();
 
                     const productTitle = document.getElementById("productTitle");
@@ -294,7 +292,7 @@ function updatePrice() {
 function handleAddToCart() {
     const size = document.querySelector(".size-button.selected")?.textContent || null;
     const selectedPrint = document.getElementById("pa_odabir-stampe")?.value || "";
-    const mainImageSrc = firstImageSrc;
+    const mainImageSrc = document.querySelector(".swiper-slide img")?.src || "";
     if (!validateInputs(size, selectedPrint)) {
         return;
     }
