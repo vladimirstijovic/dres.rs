@@ -292,7 +292,7 @@ function updatePrice() {
 function handleAddToCart() {
     const size = document.querySelector(".size-button.selected")?.textContent || null;
     const selectedPrint = document.getElementById("pa_odabir-stampe")?.value || "";
-    const mainImageSrc = document.querySelector("#swiper-wrapper .swiper-slide img")?.src || "";
+    const mainImageSrc = document.querySelector(".swiper-slide:first-child img")?.src || "";
     if (!validateInputs(size, selectedPrint)) {
         return;
     }
