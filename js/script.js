@@ -538,6 +538,7 @@ function submitOrder() {
     localStorage.removeItem("cart");
     cart = [];
     updateCartDisplay();
+    updateCartCount();
     document.getElementById("contactFormSection").style.display = "none";
 }
   
