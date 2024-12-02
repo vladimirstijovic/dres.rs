@@ -163,8 +163,9 @@ function initializeDresPage() {
                 if (images.length > 0) {
                     const swiperWrapper = document.getElementById("swiper-wrapper");
 
-                    // Očisti prethodni sadržaj Swiper wrappera
+                    // Očisti prethodni sadržaj Swiper wrappera i dodeli prvu sliku globalnoj promenljivoj
                     swiperWrapper.innerHTML = "";
+                    firstImageSrc = images[0];
 
                     // Dinamičko dodavanje slika u Swiper
                     images.forEach(image => {
@@ -173,11 +174,6 @@ function initializeDresPage() {
                         slideDiv.innerHTML = `<img src="${image}" alt="${team} ${type} дрес">`;
                         swiperWrapper.appendChild(slideDiv);
                     });
-
-                    // Postavlja prvu sliku u globalnu promenljivu
-                    if (index === 0) {
-                        firstImageSrc = image;
-                    }
 
                     // Inicijalizuj ili ponovo inicijalizuj Swiper nakon dodavanja slika
                     initializeSwiper();
