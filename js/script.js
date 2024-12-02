@@ -450,10 +450,8 @@ function updateCartDisplay() {
         console.error("Kontejner za stavke korpe nije pronađen.");
         return;
     }
-
     cartItemsContainer.innerHTML = ""; // Očisti prethodne stavke
     let total = 0;
-
     if (cart.length === 0) {
         cartItemsContainer.innerHTML = "<p class='text-center'>Ваша корпа је празна.</p>";
         document.getElementById("totalPrice").textContent = "Укупно: 0 РСД";
@@ -465,11 +463,10 @@ function updateCartDisplay() {
             console.error(`Proizvod u korpi ima nevažeću cenu:`, item);
             item.price = BASE_PRICE;
         }
-
         total += item.price;
         const itemDiv = document.createElement("div");
         itemDiv.className = "col-12 mb-3";
-        
+    
         let stampanjeDetails = "";
         if (item.print === "usluzna-stampa") {
             stampanjeDetails = `
@@ -507,6 +504,7 @@ function removeFromCart(index) {
     cart.splice(index, 1); // Uklanja proizvod iz korpe na osnovu indeksa
     saveCart(); // Čuva ažuriranu korpu u localStorage
     updateCartDisplay(); // Ažurira prikaz korpe
+    updateCartCount();
 }
 
 function submitOrder() {
