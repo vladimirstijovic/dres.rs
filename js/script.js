@@ -11,6 +11,7 @@ const PRINT_OPTIONS = [
     { value: "usluzna-stampa", text: "Услужна штампа" },
 ];
 
+let firstImageSrc = ""; 
 
 document.addEventListener("DOMContentLoaded", function () {
     loadCart();
@@ -173,7 +174,12 @@ function initializeDresPage() {
                         swiperWrapper.appendChild(slideDiv);
                     });
 
-                    // Inicijalizujte ili ponovo inicijalizujte Swiper nakon dodavanja slika
+                    // Postavlja prvu sliku u globalnu promenljivu
+                    if (index === 0) {
+                        firstImageSrc = image;
+                    }
+
+                    // Inicijalizuj ili ponovo inicijalizuj Swiper nakon dodavanja slika
                     initializeSwiper();
 
                     const productTitle = document.getElementById("productTitle");
@@ -292,7 +298,7 @@ function updatePrice() {
 function handleAddToCart() {
     const size = document.querySelector(".size-button.selected")?.textContent || null;
     const selectedPrint = document.getElementById("pa_odabir-stampe")?.value || "";
-    const mainImageSrc = document.querySelector(".swiper-slide:first-child img")?.src || "";
+    const mainImageSrc = firstImageSrc;
     if (!validateInputs(size, selectedPrint)) {
         return;
     }
