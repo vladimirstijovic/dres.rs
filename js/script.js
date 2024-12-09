@@ -487,7 +487,7 @@ function updateCartDisplay() {
                         <p>Cena: ${formatPrice(item.price)} RSD</p>
                     </div>
                 </div>
-                <button class="btn btn-danger btn-sm" onclick="removeFromCart(${index})">Ukloni</button>
+                <button class="btn btn-danger btn-sm" onclick="removeFromCart(${index})">Уклони</button>
             </div>
         `;
         cartItemsContainer.appendChild(itemDiv);
